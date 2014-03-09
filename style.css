@@ -1,0 +1,299 @@
+/*---Style File created by EAC---*/
+
+@charset 'UTF-8';
+* {
+margin: 0px;
+padding: 0;
+z-index: 0;}
+
+/*---Main parts of the website---*/
+
+body {
+   background: url(black2.jpg) scroll; 
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:16px;
+   z-index: 0; 
+}
+
+#overall{
+	width: 900px;
+	min-width: 900px;
+	height: 895px;
+	margin: auto auto;
+	margin-top: 20px;
+}
+
+#wrapper{
+	width: 100%;
+	height: 8px;
+	background-color: #FFEB6F; 
+	top: 0;
+}
+
+#nav{
+	position: fixed;
+	margin-left: 55%;
+}
+
+#1logo{
+	height: 120px;
+	width: 120px;
+	background: url(logo.png);
+	margin-top: 40px;
+	margin-left: 0px;
+}
+
+#body{
+	height: auto;
+	width: auto;
+	overflow: auto;
+	width: 100%;
+	color: #000;
+	background: transparent;
+}
+
+/*---List and links settings---*/
+
+ul li {
+	background:transparent;
+	list-style: none;
+	height: auto;
+	width: auto;
+	float: left;
+	text-align:center;
+	margin-top: 10px;
+}
+
+ul li a {
+	color: #FFEB6F;
+	font-size:18px;
+	font-weight:lighter;
+	text-align:left;
+	text-decoration: none;
+	padding: 10px 10px;
+
+}
+ul li a:hover {
+	color: #FF2299;
+}
+
+a.link{
+	font-weight: normal;
+	font-size: 16px;
+	padding: 0px 0px;
+	color: #eee;
+}
+
+a.link:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+
+a.link_member{
+	font-weight: normal;
+	font-size: 16px;
+	padding: 0px 0px;
+	color: #000;
+}
+
+a.link_member:hover{
+	color: #000;
+	text-decoration: underline;
+}
+
+
+
+a.listLink{
+	font-weight: normal;
+	font-size: 16px;
+	padding: 0px 0px;
+	color: #fff;
+}
+
+a.listLink:hover{
+	color: #FFEB6F;
+	text-decoration: underline;
+}
+
+/*---Content information---*/
+
+#content{
+	height: auto;
+	width: auto;
+	background: transparent;
+	margin-top: 5px;
+	color: #000;
+}
+
+#video{
+	height: auto;
+	width: auto;
+}
+
+#news{
+	height: 315px;
+	width: 305px;
+	background: rgba(0,0,0,0.5);
+	margin-left: 20px;
+	color: #FFEB6F;
+	text-align: left;
+	padding: 5px 10px;
+}
+
+#titleContent{
+	height: auto;
+	width: auto;
+	background-color: #ccc;
+	margin-top: 360px;
+	margin-left: auto;
+	color: #000;
+}
+
+#title{
+	text-align: center;
+	width: 120px;
+	color: #fff;
+}
+
+#title2{
+	text-align: center;
+	width: auto;
+	margin-left: 340px;
+	color: #fff;
+}
+
+#infoContent{
+	height: auto;
+	width: auto;
+	margin-top: 420px;
+	margin-left: auto;
+}
+
+.box{
+	height: auto;
+	width: 120px;
+	background: rgba(0,0,0,0.5);
+	margin-top: 0px;
+	margin-bottom: auto;
+	margin-right: 40px;
+	color: #000;
+	padding-bottom: 5px;
+	font-size: 28px;
+}
+
+.box2{
+	height: 295px;
+	width: 670px;
+	background: rgba(0,0,0,0.5);
+	margin-top: 0px;
+	margin-bottom: auto;
+	margin-right: 40px;
+	color: #fff;
+	padding: 5px 10px;
+	text-align: left;
+}
+
+p{
+	margin-top: 0.8em;
+	margin-bottom: 0.8em;
+}
+
+/*---Members information and settings---*/
+
+.member_ameis{
+	padding: 5px 0px;
+	background-color: #FFEB6F;
+	border-bottom: 1px solid #000;
+}
+.member_ameis:hover{
+	background-color: #B220BB;
+}
+
+.member_love{
+	padding: 5px 0px;
+	background-color: #FFEB6F;
+	border-bottom: 1px solid #000;
+}
+.member_love:hover{
+	background-color: #C50453;
+}
+
+.member_floris{
+	padding: 5px 0px;
+	background-color: #FFEB6F;
+	border-bottom: 1px solid #000;
+}
+.member_floris:hover{
+	background-color: #328AB0;
+}
+
+.member_kpoxa{
+	padding: 5px 0px;
+	background-color: #FFEB6F;
+	border-bottom: 1px solid #000;
+}
+.member_kpoxa:hover{
+	background-color: #1C125F;
+}
+
+.member_mela{
+	padding: 5px 0px;
+	background-color: #FFEB6F;
+	border-bottom: 1px solid #000;
+}
+.member_mela:hover{
+	background-color: #189D12;
+}
+
+.member_cesium{
+	padding: 5px 0px;
+	background-color: #FFEB6F;
+	border-bottom: 1px solid #000;
+}
+.member_cesium:hover{
+	background-color: #F1B908;
+}
+
+/*---Rest of the pages apart from index, settings---*/
+
+#newsContent{
+	height: auto;
+	width: auto;
+}
+
+.news{
+	width: 100%;
+	height: 120px;
+	background-color: rgba(0,0,0,0.5); 
+}
+
+#contact{
+	width: 100%;
+	height: 400px;
+	background-color: rgba(0,0,0,0.5);
+	margin-top: 10px;
+}
+
+#pages{
+	width: 20px;
+	height: 20px;
+	background-color: rgba(0,0,0,0.5);
+	margin-right: 10px;
+	color: #fff;
+}
+
+/*---Bottom information---*/
+
+#bottom{
+	position: relative;
+	bottom: 0px;
+	overflow: auto;
+	width: 100%;
+	height: auto;
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+}
+
+#footer{
+	text-align: center;
+}
